@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Doctor charge:</strong>
+  <%= @bill.doctor_charge %>
+</p>
+
+<p>
+  <strong>Medicine charge:</strong>
+  <%= @bill.medicine_charge %>
+</p>
+
+<p>
+  <strong>Room charge:</strong>
+  <%= @bill.room_charge %>
+</p>
+
+<p>
+  <strong>Opteration charge:</strong>
+  <%= @bill.opteration_charge %>
+</p>
+
+<p>
+  <strong>No day:</strong>
+  <%= @bill.no_day %>
+</p>
+
+<%= link_to 'Edit', edit_bill_path(@bill) %> |
+<%= link_to 'Back', bills_path %>

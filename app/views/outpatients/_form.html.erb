@@ -1,0 +1,14 @@
+
+<%= simple_form_for(@outpatient) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <div class="form-inputs">
+    <%= f.collection_select :labtable_id, Labtable.order(:dt), :id, :dt, prompt: "Choose a Room" %>
+    <%= f.input :dt %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

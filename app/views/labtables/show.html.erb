@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pid:</strong>
+  <%= @labtable.pid %>
+</p>
+
+<p>
+  <strong>Dt:</strong>
+  <%= @labtable.dt %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @labtable.category %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @labtable.amount %>
+</p>
+
+<%= link_to 'Edit', edit_labtable_path(@labtable) %> |
+<%= link_to 'Back', labtables_path %>

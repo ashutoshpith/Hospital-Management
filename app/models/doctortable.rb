@@ -1,0 +1,2 @@
+class Doctortable < ApplicationRecord
+end

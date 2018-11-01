@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  doctor_charge: 1
+  medicine_charge: 1
+  room_charge: 1
+  opteration_charge: 1
+  no_day: 1
+
+two:
+  doctor_charge: 1
+  medicine_charge: 1
+  room_charge: 1
+  opteration_charge: 1
+  no_day: 1

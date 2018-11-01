@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date_of_add: 2018-11-01
+  date_of_dis: 2018-11-01
+  advance: 1
+
+two:
+  date_of_add: 2018-11-01
+  date_of_dis: 2018-11-01
+  advance: 1

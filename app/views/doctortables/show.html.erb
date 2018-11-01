@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Doctor name:</strong>
+  <%= @doctortable.doctor_name %>
+</p>
+
+<p>
+  <strong>Doctor sp:</strong>
+  <%= @doctortable.doctor_sp %>
+</p>
+
+<%= link_to 'Edit', edit_doctortable_path(@doctortable) %> |
+<%= link_to 'Back', doctortables_path %>

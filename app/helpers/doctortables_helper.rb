@@ -1,0 +1,2 @@
+module DoctortablesHelper
+end

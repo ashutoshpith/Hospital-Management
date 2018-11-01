@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date of add:</strong>
+  <%= @inpatient.date_of_add %>
+</p>
+
+<p>
+  <strong>Date of dis:</strong>
+  <%= @inpatient.date_of_dis %>
+</p>
+
+<p>
+  <strong>Advance:</strong>
+  <%= @inpatient.advance %>
+</p>
+
+<%= link_to 'Edit', edit_inpatient_path(@inpatient) %> |
+<%= link_to 'Back', inpatients_path %>

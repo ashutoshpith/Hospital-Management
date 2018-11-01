@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  doctor_name: MyString
+  doctor_sp: MyString
+
+two:
+  doctor_name: MyString
+  doctor_sp: MyString

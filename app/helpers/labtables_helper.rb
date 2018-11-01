@@ -1,0 +1,2 @@
+module LabtablesHelper
+end

@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Roomtables</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Room no</th>
+      <th>Room type</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @roomtables.each do |roomtable| %>
+      <tr>
+        <td><%= roomtable.room_no %></td>
+        <td><%= roomtable.room_type %></td>
+        <td><%= roomtable.status %></td>
+        <td><%= link_to 'Show', roomtable %></td>
+        <td><%= link_to 'Edit', edit_roomtable_path(roomtable) %></td>
+        <td><%= link_to 'Destroy', roomtable, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Roomtable', new_roomtable_path %>
